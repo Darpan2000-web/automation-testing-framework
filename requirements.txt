@@ -1,0 +1,21 @@
+Run the project
+
+Type this:
+
+python -m pytest --html=reports/report.html
+
+👉 Press Enter
+
+
+See the Result
+
+After run, open:
+
+automation_framework/reports/report.html
+
+👉 Double-click → open in browser
+
+You will see:
+
+✅ Passed tests
+❌ Failed tests (if any)
