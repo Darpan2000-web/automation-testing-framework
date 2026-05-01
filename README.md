@@ -1,22 +1,22 @@
 # 🚀 Automation Testing Framework (Python + Selenium)
 
-## 📌 Project Overview
+## 📌 Overview
 
-This project is a test automation framework built using Python, Selenium, and PyTest. It automates login functionality of a web application and validates expected outcomes.
+This project is a scalable test automation framework built using Python, Selenium, and PyTest. It automates login functionality of a web application and validates expected outcomes.
 
-## 🧠 Key Features
+## 🧠 Features
 
 - Page Object Model (POM) design pattern
-- Automated login testing (valid & invalid cases)
-- PyTest framework for test execution
+- Automated login testing (valid & invalid scenarios)
+- PyTest framework for execution
 - HTML report generation
-- Screenshot capture on test failure
-- Clean and scalable project structure
+- Screenshot capture on failure
+- Modular and maintainable structure
 
 ## 🛠️ Tech Stack
 
 - Python
-- Selenium
+- Selenium WebDriver
 - PyTest
 
 ## ▶️ How to Run
@@ -27,11 +27,19 @@ python -m pytest --html=reports/report.html
 
 ## 📊 Output
 
-- Test execution report in `reports/`
-- Screenshots in `screenshots/` (on failure)
+- Reports → `reports/report.html`
+- Screenshots → `screenshots/` (on failure)
+
+## 📁 Project Structure
+
+- tests/ → test cases
+- pages/ → page objects
+- utils/ → reusable utilities
+- data/ → test data
 
 ## 🎯 Future Enhancements
 
 - Data-driven testing (Excel/CSV)
 - CI/CD integration
 - Advanced reporting
+- Cross-browser testing
